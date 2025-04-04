@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+}
+
+.admin-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+}
+
+
+h1 {
+    color: #222;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+p {
+    color: #555;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a,
+nav ul li button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #fff;
+    background: #6f7174;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav ul li button {
+    background: #6f7174;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+    background: #000000;
+}
+
+nav ul li button:hover {
+    background: #000000;
+}
